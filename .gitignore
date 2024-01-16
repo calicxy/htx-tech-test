@@ -1,3 +1,6 @@
 /asr/common_voice.zip
+/asr/checkpoint.txt
+/asr/checkpoint2.txt
+/asr/read_checkpoint.py
 cv-valid-dev/
 venv/
