@@ -7,4 +7,8 @@ RUN pip3 install -r requirements.txt
 
 COPY ./asr_api.py /app
 
-CMD [ "python3", "asr_api.py"]
+EXPOSE 8001
+
+# CMD [ "python3", "asr_api.py"]
+
+CMD [ "python3", "-m" , "flask", "--app", "asr_api", "run", "--host=0.0.0.0", "--port=8001"]
