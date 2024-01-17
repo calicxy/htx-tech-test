@@ -11,7 +11,7 @@ transcriptions = []
 
 with zipfile.ZipFile("asr/common_voice.zip", "r") as f:
 
-    for id, row in df.iloc[2557:].iterrows():
+    for id, row in df.iterrows():
         if os.path.exists('cv-valid-dev/'+row["filename"]):
             continue
         else:
