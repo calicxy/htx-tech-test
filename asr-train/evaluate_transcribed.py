@@ -1,6 +1,4 @@
 import pandas as pd
-import zipfile
-import os
 from datasets import load_metric
 
 wer_metric = load_metric("wer")

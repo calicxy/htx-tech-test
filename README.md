@@ -8,6 +8,7 @@ To activate the virtual environment:
 To install the python packages in requirements.txt
 3. pip install -r requirements.txt
 
+## Task 2
 To run Flask app asr_api directly (without Docker):
 1. python3 ./asr/asr_api.py
 
