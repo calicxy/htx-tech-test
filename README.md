@@ -19,3 +19,8 @@ To run the Docker container for the asr_api app:
 Once done, to close the docker container:
 4. docker stop asr-api
 5. docker rm asr-api
+
+## Task 3
+The notebook for task 3a was done in Kaggle in order to utilise the GPU resources available on Kaggle. 
+The link to the notebook is: https://www.kaggle.com/calistachoy/cv-train-2a-ipynb
+A version of the notebook was downloaded and uploaded onto Github, with additional codes for the other parts added to the downloaded notebook.
