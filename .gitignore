@@ -2,10 +2,7 @@ venv/
 cv-valid-dev/
 cv-valid-test/
 
-
 /asr/common_voice.zip
-/asr/checkpoint.txt
-/asr/checkpoint2.txt
 /asr/read_checkpoint.py
 
 /asr-train/wav2vec2-large-960h-cv.zip
@@ -14,3 +11,5 @@ cv-valid-test/
 /asr-train/evaluate_transcribed.py
 
 /cv-valid-train.csv
+
+backup-files/
