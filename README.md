@@ -1,5 +1,5 @@
 # htx-tech-test
-*Note: The codes and commands are run on a Windows laptop.
+*Note: The codes and commands were ran on a Windows laptop.
 
 To set up a virtual environment:
 1. python3 -m venv venv
@@ -24,3 +24,4 @@ Once done, to close the docker container:
 The notebook for task 3a was done in Kaggle in order to utilise the GPU resources available on Kaggle. 
 The link to the notebook is: https://www.kaggle.com/calistachoy/cv-train-2a-ipynb
 A version of the notebook was downloaded and uploaded onto Github, with additional codes for the other parts added to the downloaded notebook.
+The model checkpoint saved in a zip folder can be found here: https://drive.google.com/file/d/1qTGa3R-DbjSymraz-2xeW8vCCPf3Q5OW/view?usp=drive_link
