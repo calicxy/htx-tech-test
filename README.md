@@ -12,6 +12,10 @@ To install the python packages in requirements.txt
 To run Flask app asr_api directly (without Docker):
 1. python3 ./asr/asr_api.py
 
+To send a curl command to the api for ASR (on Windows):
+1. curl.exe -F 'file=@cv-valid-test/cv-valid-test/sample-000000.mp3' http://localhost:8001/asr
+*Note: The first call may take quite long.
+
 To run the Docker container for the asr_api app:
 1. cd asr
 2. docker build --tag asr-api .
